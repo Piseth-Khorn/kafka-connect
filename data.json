@@ -1,0 +1,711 @@
+{
+    "schema": {
+        "type": "struct",
+        "fields": [
+            {
+                "type": "int32",
+                "optional": false,
+                "field": "id"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "created_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "created_by"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "modified_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "modified_by"
+            },
+            {
+                "type": "boolean",
+                "optional": false,
+                "field": "deleted"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "end_date"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "start_date"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "leave_type_id"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "technician_id"
+            }
+        ],
+        "optional": false,
+        "name": "event"
+    },
+    "payload": {
+        "id": 4,
+        "created_at": 1617644422828,
+        "created_by": null,
+        "modified_at": null,
+        "modified_by": null,
+        "deleted": false,
+        "end_date": 1617210120000,
+        "start_date": 1617642120000,
+        "leave_type_id": 2,
+        "technician_id": 1
+    }
+}
+{
+    "schema": {
+        "type": "struct",
+        "fields": [
+            {
+                "type": "int32",
+                "optional": false,
+                "field": "id"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "created_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "created_by"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "modified_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "modified_by"
+            },
+            {
+                "type": "boolean",
+                "optional": false,
+                "field": "deleted"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "end_date"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "start_date"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "leave_type_id"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "technician_id"
+            }
+        ],
+        "optional": false,
+        "name": "event"
+    },
+    "payload": {
+        "id": 5,
+        "created_at": 1617644433487,
+        "created_by": null,
+        "modified_at": null,
+        "modified_by": null,
+        "deleted": false,
+        "end_date": 1617210120000,
+        "start_date": 1617642120000,
+        "leave_type_id": 2,
+        "technician_id": 1
+    }
+}
+    {
+    "schema": {
+        "type": "struct",
+        "fields": [
+            {
+                "type": "int32",
+                "optional": false,
+                "field": "id"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "created_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "created_by"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "modified_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "modified_by"
+            },
+            {
+                "type": "boolean",
+                "optional": false,
+                "field": "deleted"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "end_date"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "start_date"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "leave_type_id"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "technician_id"
+            }
+        ],
+        "optional": false,
+        "name": "event"
+    },
+    "payload": {
+        "id": 6,
+        "created_at": 1617644436611,
+        "created_by": null,
+        "modified_at": null,
+        "modified_by": null,
+        "deleted": false,
+        "end_date": 1617210120000,
+        "start_date": 1617642120000,
+        "leave_type_id": 2,
+        "technician_id": 2
+    }
+}
+    {
+    "schema": {
+        "type": "struct",
+        "fields": [
+            {
+                "type": "int32",
+                "optional": false,
+                "field": "id"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "created_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "created_by"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "modified_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "modified_by"
+            },
+            {
+                "type": "boolean",
+                "optional": false,
+                "field": "deleted"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "end_date"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "start_date"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "leave_type_id"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "technician_id"
+            }
+        ],
+        "optional": false,
+        "name": "event"
+    },
+    "payload": {
+        "id": 7,
+        "created_at": 1617644439643,
+        "created_by": null,
+        "modified_at": null,
+        "modified_by": null,
+        "deleted": false,
+        "end_date": 1617210120000,
+        "start_date": 1617642120000,
+        "leave_type_id": 2,
+        "technician_id": 3
+    }
+}
+    {
+    "schema": {
+        "type": "struct",
+        "fields": [
+            {
+                "type": "int32",
+                "optional": false,
+                "field": "id"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "created_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "created_by"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "modified_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "modified_by"
+            },
+            {
+                "type": "boolean",
+                "optional": false,
+                "field": "deleted"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "end_date"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "start_date"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "leave_type_id"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "technician_id"
+            }
+        ],
+        "optional": false,
+        "name": "event"
+    },
+    "payload": {
+        "id": 8,
+        "created_at": 1617644443092,
+        "created_by": null,
+        "modified_at": null,
+        "modified_by": null,
+        "deleted": false,
+        "end_date": 1617210120000,
+        "start_date": 1617642120000,
+        "leave_type_id": 2,
+        "technician_id": 4
+    }
+}
+    {
+    "schema": {
+        "type": "struct",
+        "fields": [
+            {
+                "type": "int32",
+                "optional": false,
+                "field": "id"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "created_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "created_by"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "modified_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "modified_by"
+            },
+            {
+                "type": "boolean",
+                "optional": false,
+                "field": "deleted"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "end_date"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "start_date"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "leave_type_id"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "technician_id"
+            }
+        ],
+        "optional": false,
+        "name": "event"
+    },
+    "payload": {
+        "id": 9,
+        "created_at": 1617644449937,
+        "created_by": null,
+        "modified_at": null,
+        "modified_by": null,
+        "deleted": false,
+        "end_date": 1617210120000,
+        "start_date": 1617642120000,
+        "leave_type_id": 2,
+        "technician_id": 5
+    }
+}
+    {
+    "schema": {
+        "type": "struct",
+        "fields": [
+            {
+                "type": "int32",
+                "optional": false,
+                "field": "id"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "created_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "created_by"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "modified_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "modified_by"
+            },
+            {
+                "type": "boolean",
+                "optional": false,
+                "field": "deleted"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "end_date"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "start_date"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "leave_type_id"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "technician_id"
+            }
+        ],
+        "optional": false,
+        "name": "event"
+    },
+    "payload": {
+        "id": 10,
+        "created_at": 1617644455990,
+        "created_by": null,
+        "modified_at": null,
+        "modified_by": null,
+        "deleted": false,
+        "end_date": 1617210120000,
+        "start_date": 1617642120000,
+        "leave_type_id": 2,
+        "technician_id": 6
+    }
+}
+    {
+    "schema": {
+        "type": "struct",
+        "fields": [
+            {
+                "type": "int32",
+                "optional": false,
+                "field": "id"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "created_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "created_by"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "modified_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "modified_by"
+            },
+            {
+                "type": "boolean",
+                "optional": false,
+                "field": "deleted"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "end_date"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "start_date"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "leave_type_id"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "technician_id"
+            }
+        ],
+        "optional": false,
+        "name": "event"
+    },
+    "payload": {
+        "id": 11,
+        "created_at": 1617644463470,
+        "created_by": null,
+        "modified_at": null,
+        "modified_by": null,
+        "deleted": false,
+        "end_date": 1617210120000,
+        "start_date": 1617642120000,
+        "leave_type_id": 2,
+        "technician_id": 7
+    }
+}
+    {
+    "schema": {
+        "type": "struct",
+        "fields": [
+            {
+                "type": "int32",
+                "optional": false,
+                "field": "id"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "created_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "created_by"
+            },
+            {
+                "type": "int64",
+                "optional": true,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "modified_at"
+            },
+            {
+                "type": "string",
+                "optional": true,
+                "field": "modified_by"
+            },
+            {
+                "type": "boolean",
+                "optional": false,
+                "field": "deleted"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "end_date"
+            },
+            {
+                "type": "int64",
+                "optional": false,
+                "name": "org.apache.kafka.connect.data.Timestamp",
+                "version": 1,
+                "field": "start_date"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "leave_type_id"
+            },
+            {
+                "type": "int32",
+                "optional": true,
+                "field": "technician_id"
+            }
+        ],
+        "optional": false,
+        "name": "event"
+    },
+    "payload": {
+        "id": 12,
+        "created_at": 1623087663000,
+        "created_by": null,
+        "modified_at": null,
+        "modified_by": null,
+        "deleted": true,
+        "end_date": 1627750920000,
+        "start_date": 1627750920000,
+        "leave_type_id": 2,
+        "technician_id": null
+    }
+}
